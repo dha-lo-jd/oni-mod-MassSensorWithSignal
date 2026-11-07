@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PO Editor\n"
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+msgctxt "MassSensorWithSignal.STRINGS.BUILDINGS.PREFABS.MASSSENSORWITHSIGNAL.NAME"
+msgid "Total Mass Sensor"
+msgstr "総質量センサー"
+
+msgctxt "MassSensorWithSignal.STRINGS.BUILDINGS.PREFABS.MASSSENSORWITHSIGNAL.DESC"
+msgid "Measures the total mass of a connected body of the same element."
+msgstr "同じ元素が繋がっている空間全体の総質量を測定できます。"
+
+msgctxt "MassSensorWithSignal.STRINGS.BUILDINGS.PREFABS.MASSSENSORWITHSIGNAL.EFFECT"
+msgid "Sums the mass of all connected tiles of the same element and sends an automation signal according to the configured threshold."
+msgstr "同じ元素の繋がっているタイルの合計質量を合算し、設定したしきい値に応じて自動化信号を送信します。"
+
+msgctxt "MassSensorWithSignal.STRINGS.BUILDINGS.PREFABS.MASSSENSORWITHSIGNAL.LOGIC_PORT"
+msgid "Total Mass Sensor Output"
+msgstr "総質量センサー出力"
+
+msgctxt "MassSensorWithSignal.STRINGS.BUILDINGS.PREFABS.MASSSENSORWITHSIGNAL.LOGIC_PORT_ACTIVE"
+msgid "Sends a <color=#00FF00>Green</color> signal while the condition is met."
+msgstr "条件に一致している間、<color=#00FF00>グリーン</color>信号を送信します。"
+
+msgctxt "MassSensorWithSignal.STRINGS.BUILDINGS.PREFABS.MASSSENSORWITHSIGNAL.LOGIC_PORT_INACTIVE"
+msgid "Sends a <color=#FF0000>Red</color> signal while the condition is not met."
+msgstr "条件に一致していない間、<color=#FF0000>レッド</color>信号を送信します。"
+
+msgctxt "MassSensorWithSignal.STRINGS.UI.MASSSENSORWITHSIGNAL.TITLE"
+msgid "Total Mass Threshold"
+msgstr "総質量しきい値"
+
+msgctxt "MassSensorWithSignal.STRINGS.UI.MASSSENSORWITHSIGNAL.THRESHOLD_VALUE_NAME"
+msgid "Total Mass"
+msgstr "総質量"
+
+msgctxt "MassSensorWithSignal.STRINGS.UI.MASSSENSORWITHSIGNAL.THRESHOLD_TOOLTIP"
+msgid "Sets the total mass threshold at which the automation signal is sent."
+msgstr "自動化信号を送信する総質量のしきい値を設定します。"
+
+msgctxt "MassSensorWithSignal.STRINGS.UI.MASSSENSORWITHSIGNAL.ABOVE_TOOLTIP"
+msgid "Sends a Green signal when the total mass is above the threshold."
+msgstr "総質量がしきい値より大きいとき、グリーン信号を送信します。"
+
+msgctxt "MassSensorWithSignal.STRINGS.UI.MASSSENSORWITHSIGNAL.BELOW_TOOLTIP"
+msgid "Sends a Green signal when the total mass is below the threshold."
+msgstr "総質量がしきい値未満のとき、グリーン信号を送信します。"
