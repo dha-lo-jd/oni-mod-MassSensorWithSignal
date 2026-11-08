@@ -1,0 +1,24 @@
+[h1]Total Mass Sensor With Signal[/h1]
+
+Adds the [b]Total Mass Sensor[/b] to the [b]Automation[/b] build menu.
+
+It sums the mass of the whole connected body of the same element at its own cell (gas, liquid or solid), and sends an automation signal when the total goes above or below a threshold you set.
+
+[h2]Features[/h2]
+[list]
+[*] Threshold from [b]0 to 2,147,483,647 kg[/b], with a widened input field
+[*] [color=#00cc00]Green[/color] signal when the condition is met, [color=#ff3333]Red[/color] otherwise
+[*] Uses the standard threshold side screen
+[*] Checks every 200 ms
+[*] English and Japanese
+[/list]
+
+[h2]Notes[/h2]
+[list]
+[*] Settings are saved with the building.
+[*] Safe to add to existing saves.
+[*] Uses PLib (bundled in the mod, no separate install needed).
+[/list]
+
+[h2]Source[/h2]
+[url=https://github.com/dha-lo-jd/oni-mod-MassSensorWithSignal]GitHub[/url] (MIT License)
