@@ -14,7 +14,7 @@ public sealed class SignalMassSensorConfig : IBuildingConfig
             id: ID,
             width: 1,
             height: 1,
-            anim: "switchliquidpressure_kanim", // vanilla animation reused
+            anim: "MassSensorWithSignal_kanim",
             hitpoints: 30,
             construction_time: 30f,
             construction_mass: BUILDINGS.CONSTRUCTION_MASS_KG.TIER0,
