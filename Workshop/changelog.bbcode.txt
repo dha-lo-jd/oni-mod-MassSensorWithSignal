@@ -1,5 +1,15 @@
 [h1]Changelog / 更新履歴[/h1]
 
+[h2]1.0.2[/h2]
+[b]English[/b]
+[list]
+[*] Fixed building names, descriptions and effects not being translated.
+[/list]
+[b]日本語[/b]
+[list]
+[*] 建物の名前・説明文・効果が翻訳されない問題を修正しました。
+[/list]
+
 [h2]1.0.1[/h2]
 [b]English[/b]
 [list]
