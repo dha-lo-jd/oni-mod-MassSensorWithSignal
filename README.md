@@ -15,13 +15,13 @@ BBCode descriptions for the Workshop page are in `Workshop/`:
 
 ## Workshop Upload
 
-- Thumbnail: `Workshop/thumbnail-320.png`
-- Build with `dotnet build .\MassSensorWithSignal.sln -c Release` and upload the contents of the mod install directory (DLL, `mod.yaml`, `mod_info.yaml`, `strings`, `anim`).
+- Thumbnail: `Workshop/preview.png`
+- Build with `dotnet build .\MassSensorWithSignal.sln -c Release` and upload the contents of `release/MassSensorWithSignal` (DLL, `mod.yaml`, `mod_info.yaml`, `translations`, `anim`).
 - Bump `version` in `mod_info.yaml` for every update.
 
 ## Localization
 
-English is the default. A Japanese translation is in `strings/ja.po`.
+English is the default. A Japanese translation is in `translations/ja.po`.
 
 ## Build
 
@@ -33,7 +33,7 @@ Build from the solution directory:
 dotnet build .\MassSensorWithSignal.sln
 ```
 
-When `ModInstallPath` is configured, the build merges `PLib.dll` into the mod DLL and copies it, `mod_info.yaml`, `mod.yaml` and the `strings` directory to that local mod directory.
+When `ModInstallPath` is configured, the build merges `PLib.dll` into the mod DLL and copies it, `mod_info.yaml`, `mod.yaml` and the `translations` directory to that local mod directory.
 
 ## License
 
