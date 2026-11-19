@@ -1,5 +1,15 @@
 [h1]Changelog / 更新履歴[/h1]
 
+[h2]1.0.3[/h2]
+[b]English[/b]
+[list]
+[*] Updated for the U60 release of the game (verified: the mod loads and a save runs with no errors). U60 or later is now required.
+[/list]
+[b]日本語[/b]
+[list]
+[*] ゲームの U60 に対応しました（Mod の読み込みとセーブの実行でエラーが出ないことを確認済み）。U60 以降が必要です。
+[/list]
+
 [h2]1.0.2[/h2]
 [b]English[/b]
 [list]
