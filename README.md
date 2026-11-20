@@ -2,7 +2,7 @@
 
 Oxygen Not Included mod. Adds the Total Mass Sensor to the Automation build menu.
 
-Works on both the U59 and U60 releases of the game (mod version 1.1.0 and up).
+Works on both the U59 and U60 releases of the game (mod version 1.1.1 and up).
 
 ## Building
 
