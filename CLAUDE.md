@@ -10,7 +10,9 @@ ONI mod（総質量センサー）。共通事項は HQ（親フォルダ）の 
 - Workshop 用の説明文・変更履歴・サムネイルは `Workshop/`（英日）。更新時は版、README、変更履歴をそろえる。ID は 3835993950。
 
 ## 実機検証
-`harness.json` は読み込み確認用（起動、Mod の読み込み、セーブのロード、ログに例外なし）。`HarnessTests.cs` はなく、センサーの機能（質量の合算、信号の出力）の自動テストはない。
-実行: `python C:/Users/dha_1/ONI-Modding/GravitasTestHarness/Gravitas.TestProbe/probe.py run --project . --summary`
+`MassSensorWithSignal/HarnessTests.cs`（`#if DEBUG`、タグ `masssensor`、7 件）: 自動化メニューへの登録、連結した同じ元素の質量の合算（斜めと岩を挟んだ別の水は数えない）、真空での 0、「以上」「以下」でしきい値を跨ぐと信号が切り替わる（等しいときは切り替わらない）、質量そのものが変わったときの切り替え、入力欄の文字数上限（このセンサーは 10、バニラは 6）。
+場面は、固い岩の中に水 100 + 200 + 300 kg の小部屋を作ったもの（セーブに自然の岩が少ないので、空きの 10 × 4 セルをテストが花崗岩に置き換え、終わると戻す）。
+実行: `GRAVITAS_EXCLUSIVE=1 python C:/Users/dha_1/ONI-Modding/GravitasTestHarness/Gravitas.TestProbe/probe.py run --project . --summary --tests '{"tags":["masssensor"]}'`
 ゲームを起動し本番の mods.json を書き換えるので、実行前にユーザーに確認する。ほかの実行がゲームを使っていると `stage=busy` になるので、待って再試行する。
-U60（buildid 26770249）で読み込み確認に合格済み（2026-11-20）。
+テストが見ていないもの: セーブ・ロードでの設定の保持、センサーの見た目（on/off のアニメーション以外）、ゲーム内の実際のオートメーション配線への接続。
+`csproj` に Debug 専用のハーネス参照（`HarnessDllPath`、`Local.Build.props` に書く）がある。ILRepack の `/lib` にもその場所を足してある（Debug のみ。足さないとハーネスの参照が解決できず結合に失敗する）。Release には入らない。
