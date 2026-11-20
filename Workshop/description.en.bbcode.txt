@@ -17,7 +17,7 @@ It sums the mass of the whole connected body of the same element at its own cell
 [list]
 [*] Settings are saved with the building.
 [*] Safe to add to existing saves.
-[*] Requires the U60 release of the game or later (mod version 1.1.0 and up).
+[*] Works on both the U59 and U60 releases of the game (mod version 1.1.0 and up).
 [*] Uses PLib (bundled in the mod, no separate install needed).
 [/list]
 
